@@ -1,0 +1,23 @@
+/*
+
+Crie um programa que receba o número de medalhas de ouro, prata e bronze de um país na Olimpíadas e calcule o total de medalhas. Quando escreve "sair", o programa deverá encerrar e mostrar na tela o ranking de medalhas no formato:
+#Ranking de medalhas:
+-Brasil: 7 medalhas
+-França: 6 medalhas
+-Argentina: 3 medalhas
+
+*/
+
+//Função principal
+function calcularTotaldemedalhas()
+{
+let países = []
+let medalhas = []
+let totaldemedalhas = 0
+
+while(true) {
+let país = prompet ("Digite o nome do país" (ou 'sair' para terminar):")
+if país = "sair" {
+break}
+
+let medalhas = prompet ("Digite quantidade de medalhas desse país")
